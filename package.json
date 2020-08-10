@@ -11,10 +11,13 @@
     "format": "prettier --write ."
   },
   "dependencies": {
+    "antd": "^4.5.2",
     "husky": "^4.2.5",
     "next": "9.5.1",
     "react": "16.13.1",
-    "react-dom": "16.13.1"
+    "react-dom": "16.13.1",
+    "react-rotating-text": "^1.4.1",
+    "sass": "^1.26.10"
   },
   "devDependencies": {
     "eslint": "^7.6.0",
