@@ -1,0 +1,23 @@
+.description {
+  display: flex;
+  width: 50%;
+  flex-flow: column wrap;
+  align-items: flex-start;
+  color: white;
+  font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono,
+  Bitstream Vera Sans Mono, Courier New, monospace;
+  h1 {
+    font-weight: bold;
+    font-size: 60px;
+  }
+  h2 {
+    text-decoration: underline;
+    font-style: italic;
+  }
+
+  a {
+    text-decoration: underline;
+    font-weight: bold;
+    font-style: italic;
+  }
+}

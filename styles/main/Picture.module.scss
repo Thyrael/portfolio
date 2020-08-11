@@ -1,0 +1,11 @@
+.socials {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.picture {
+  width: 50%;
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+}

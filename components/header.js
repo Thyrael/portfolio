@@ -1,6 +1,6 @@
 import { Breadcrumb } from 'antd';
 import { HomeOutlined, ProjectOutlined, BranchesOutlined } from '@ant-design/icons';
-import styles from '../styles/Home.module.scss';
+import styles from '../styles/Header.module.scss';
 
 export const Header = () => {
   return (
