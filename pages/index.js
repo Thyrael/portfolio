@@ -3,9 +3,7 @@ import styles from '../styles/Home.module.scss';
 import Header from '../components/header';
 import { CopyrightCircleOutlined, UserOutlined } from '@ant-design/icons';
 import { Avatar } from 'antd';
-/*var ReactRotatingText = require('react-rotating-text');
-<ReactRotatingText className={styles.ReactRotatingText}
-items={['FullStack Engineer', 'Working in Atos', 'Co-founder of Lille Gophers']} /> */
+var ReactRotatingText = require('react-rotating-text');
 
 export default function Home() {
   return (
@@ -19,8 +17,30 @@ export default function Home() {
 
       <main className={styles.main}>
         <div className={styles.grid}>
-          Hello, I'm Robin
-          <Avatar shape='square' size={300} icon={<UserOutlined />} />
+          <div className={styles.content}>
+            <h1> Hello, I'm Robin</h1>
+            <h2>Full Stack Engineer</h2>
+            <span>
+              Currently working in <a>Atos</a> (Lille) as <a>Scrum Master</a> & <a>Full Stack Engineer</a>
+            </span>
+            <span>
+              Co-founder of <a href='https://github.com/Lille-Gophers'>Lille Gophers</a> &{' '}
+              <a href='https://github.com/Los-Crackitos'>Los-Crackitos</a>
+            </span>
+            <p>
+              {' '}
+              Open source lover, i'm trying to promote this mindset through our{' '}
+              <a href='https://github.com/Los-Crackitos'>Los-Crackitos</a> repositories
+            </p>
+
+            <div className={styles.words}>
+              <ReactRotatingText
+                className={styles.ReactRotatingText}
+                items={['#Golang', '#Python', '#Web', '#Docker', '#API', '#ReactJS', '#JavaScript']}
+              />
+            </div>
+          </div>
+          <Avatar src='./photo.jpg' />
         </div>
       </main>
 

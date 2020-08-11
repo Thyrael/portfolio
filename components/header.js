@@ -1,5 +1,5 @@
 import { Breadcrumb } from 'antd';
-import { HomeOutlined, UserOutlined, BranchesOutlined } from '@ant-design/icons';
+import { HomeOutlined, ProjectOutlined, BranchesOutlined } from '@ant-design/icons';
 import styles from '../styles/Home.module.scss';
 
 export const Header = () => {
@@ -10,12 +10,12 @@ export const Header = () => {
           <HomeOutlined />
         </Breadcrumb.Item>
         <Breadcrumb.Item href=''>
-          <UserOutlined />
-          <span>About</span>
-        </Breadcrumb.Item>
-        <Breadcrumb.Item href=''>
           <BranchesOutlined />
           <span>Experience</span>
+        </Breadcrumb.Item>
+        <Breadcrumb.Item href=''>
+          <ProjectOutlined />
+          <span>Projects</span>
         </Breadcrumb.Item>
       </Breadcrumb>
     </div>

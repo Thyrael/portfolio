@@ -101,7 +101,7 @@
 
 .grid {
   display: flex;
-  align-items: center;
+  //align-items: center;
   justify-content: center;
   flex-wrap: wrap;
   flex-direction: row;
@@ -110,7 +110,15 @@
   margin-top: 3rem;
 }
 
+.words {
+  padding-top: 50px;
+  align-self: center;
+  font-size: 25px;
+  font-weight: bold;
+}
+
 .react-rotating-text-cursor {
+
   animation: blinking-cursor 0.8s cubic-bezier(0.68, 0.01, 0.01, 0.99) 0s infinite;
 }
 
@@ -126,7 +134,29 @@
   }
 }
 
+.content {
+  display: flex;
+  width: 50%;
+  flex-flow: column wrap;
+  align-items: flex-start;
+  color: white;
+  font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono,
+  Bitstream Vera Sans Mono, Courier New, monospace;
+  h1 {
+    font-weight: bold;
+    font-size: 60px;
+  }
+  h2 {
+    text-decoration: underline;
+    font-style: italic;
+  }
 
+  a {
+    text-decoration: underline;
+    font-weight: bold;
+    font-style: italic;
+  }
+}
 
 .logo {
   height: 1em;
