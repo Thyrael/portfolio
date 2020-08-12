@@ -4,8 +4,13 @@ import WordsAnimation from './wordsAnimation';
 export const Description = () => {
   return (
     <div className={styles.description}>
-      <h1> Hello, I'm Robin</h1>
-      <h2>Full Stack Engineer</h2>
+      <h1>
+        {' '}
+        Hello, I'm <a>Robin</a>
+      </h1>
+      <h2>
+        <a>Full Stack Engineer</a>
+      </h2>
       <span>
         Currently working in <a>Atos</a> (Lille) as <a>Scrum Master</a> & <a>Full Stack Engineer</a>
       </span>

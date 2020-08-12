@@ -5,7 +5,7 @@
   height: 10vh;
   justify-content: flex-end;
   align-items: center;
-  color: white;
+  color: black;
 
   div {
     flex-flow: column;
@@ -18,7 +18,8 @@
   }
 
   span:hover {
-    color: #0070f3;
-    text-decoration: underline;
+    //color: #0070f3;
+    border-bottom:3px solid #4fc08d;
+    padding-bottom:2px;
   }
 }

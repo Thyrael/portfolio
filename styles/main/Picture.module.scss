@@ -1,6 +1,10 @@
 .socials {
   display: flex;
   flex-flow: row wrap;
+
+  a {
+    padding: 0px 5px 0px 5px;
+  }
 }
 
 .picture {

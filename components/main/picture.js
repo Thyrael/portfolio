@@ -5,11 +5,20 @@ import { Avatar } from 'antd';
 export const Picture = () => {
   return (
     <div className={styles.picture}>
-      <Avatar src='./photo.jpg' />
+      <Avatar src='./circle-cropped.png' />
       <div className={styles.socials}>
-        <LinkedinFilled />
-        <TwitterSquareFilled />
-        <GithubFilled />
+        <a href=''>
+          <LinkedinFilled style={{ color: '#4fc08d' }} />
+        </a>
+        <a href='https://twitter.com/RobinBaraffe'>
+          <TwitterSquareFilled style={{ color: '#4fc08d' }} />
+        </a>
+        <a href='https://github.com/Thyrael'>
+          <GithubFilled style={{ color: '#4fc08d' }} />
+        </a>
+        <a href='https://keybase.io/thyrael'>
+          <img src='./keybase.svg' width='16px' height='20px' />
+        </a>
       </div>
     </div>
   );

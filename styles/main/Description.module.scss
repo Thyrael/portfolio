@@ -4,7 +4,7 @@
   flex-flow: column wrap;
   align-items: flex-start;
   align-content: center;
-  color: white;
+  color: black;
   font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono,
   Bitstream Vera Sans Mono, Courier New, monospace;
   h1 {
@@ -20,5 +20,6 @@
     text-decoration: underline;
     font-weight: bold;
     font-style: italic;
+    color: #4fc08d;
   }
 }
