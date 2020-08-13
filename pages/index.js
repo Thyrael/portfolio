@@ -4,6 +4,7 @@ import Header from '../components/header';
 import Footer from '../components/footer';
 import Description from '../components/main/description';
 import Picture from '../components/main/picture';
+import XpTimeline from '../components/experience/xpTimeline';
 
 export default function Main() {
   return (
@@ -15,12 +16,18 @@ export default function Main() {
 
       <Header />
 
-      <main className={styles.main}>
+      <section id='home' className={styles.main}>
         <div className={styles.grid}>
           <Description />
           <Picture />
         </div>
-      </main>
+      </section>
+
+      <section id='experience' className={styles.main}>
+        <div className={styles.grid}>
+          <XpTimeline />
+        </div>
+      </section>
 
       <Footer />
     </div>

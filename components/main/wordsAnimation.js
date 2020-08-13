@@ -6,7 +6,19 @@ export const WordsAnimation = () => {
     <div className={styles.words}>
       <ReactRotatingText
         className={styles.ReactRotatingText}
-        items={['#Golang', '#Python', '#Web', '#Docker', '#API', '#ReactJS', '#JavaScript', '#SQL', '#OpenSource']}
+        items={[
+          '#Golang',
+          '#Python',
+          '#Web',
+          '#Docker',
+          '#Agile',
+          '#API',
+          '#ReactJS',
+          '#JavaScript',
+          '#SQL',
+          '#OpenSource',
+          '#Scrum',
+        ]}
       />
     </div>
   );

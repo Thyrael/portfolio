@@ -6,10 +6,10 @@ export const Header = () => {
   return (
     <div className={styles.header}>
       <Breadcrumb separator=''>
-        <Breadcrumb.Item href=''>
+        <Breadcrumb.Item href='#home'>
           <HomeOutlined />
         </Breadcrumb.Item>
-        <Breadcrumb.Item href=''>
+        <Breadcrumb.Item href='#experience'>
           <BranchesOutlined />
           <span>Experience</span>
         </Breadcrumb.Item>
